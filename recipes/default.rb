@@ -17,6 +17,10 @@
 # limitations under the License.
 #
 
+package "gcc" do
+  action :install
+end
+
 package "python-pip" do
   action :install
 end
